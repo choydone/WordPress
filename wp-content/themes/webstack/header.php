@@ -21,6 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 <title><?php wp_title( '|', true, 'right' ); bloginfo('name'); ?></title>
 <?php endif; ?>
 <meta name="theme-color" content="#2C2E2F" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <meta name="keywords" content="<?php echo io_get_option('seo_home_keywords') ?>">
 <meta name="description" content="<?php echo io_get_option('seo_home_desc') ?>">
 <meta property="og:type" content="article">
