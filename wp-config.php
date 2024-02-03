@@ -27,13 +27,13 @@ define('FORCE_SSL_ADMIN', true);
 define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'wordpress' );
 
 /** Database password */
-define( 'DB_PASSWORD', '8tF(gmU$tVn7P' );
+define( 'DB_PASSWORD', 'c5TGM7CGcdARGhCf' );
 
 /** Database hostname */
-define( 'DB_HOST', 'choydone.cnok60ai647m.us-east-2.rds.amazonaws.com' );
+define( 'DB_HOST', '74.48.77.103' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
